@@ -19,6 +19,11 @@ body{
 
 /* index */
 /* header */
+.container{
+    width: 1230px;
+    padding: 0 15px;
+}
+
 .logo{
     color: var(--accent-color);
 
@@ -34,6 +39,23 @@ body{
 
 .logofooter{
     color: var(--secondary-title-color);
+}
+
+.nav,
+.auth{
+    /* color: var(--title-color); */
+    font-weight: 500;
+}
+
+.auth a{
+    color: var(--text-color);
+}
+.nav a{
+    color: var(--title-color);
+}
+header .list{
+    font-weight: 500;
+
 }
 
 .link{
@@ -176,15 +198,18 @@ body{
 /* footer */
 footer{
     background-color: var(--text-color); /*для видимості*/
+    font-weight: 400;
 }
 
-.address{
+.auth{
     color: var(--secondary-title-color);
     font-style: normal;
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
 
-.address-color{
+.address{
     color: rgba(255, 255, 255, 0.6);
+
+    font-weight: 400;
 }
