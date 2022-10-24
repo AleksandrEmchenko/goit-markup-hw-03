@@ -1,0 +1,190 @@
+:root{
+    --title-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196F3;
+    --secondary-text-color: #000000;
+    --secondary-title-color: #ffffff;
+}
+
+body{
+    color: var(--text-color);
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+/* index */
+/* header */
+.logo{
+    color: var(--accent-color);
+
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+}
+
+.logoheader{
+    color: var(--secondary-text-color);
+}
+
+.logofooter{
+    color: var(--secondary-title-color);
+}
+
+.link{
+    text-decoration: none;
+}
+
+.link:hover,
+.link:focus,
+.link.current{
+    color: var(--accent-color);
+}
+
+/* nav */
+.list{
+    list-style: none;;
+}
+
+/* main */
+/* hero */
+.hero-title{
+    color: var(--secondary-title-color);
+    background-color: var(--text-color); /*для видимості*/
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-button{
+    color: var(--secondary-title-color);
+    background-color: var(--accent-color);
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+
+    border: 2px solid var(--accent-color);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    cursor: pointer;
+}
+
+/* section */
+.title{
+    color: var(--title-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.sub-title{
+    color: var(--title-color);
+
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.text{
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+/* team */
+.card-title,
+.card-subtitle{
+    color: var(--title-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    
+    text-align: center;
+}
+
+.card-subtitle{
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+/* portfolio */
+.button{
+    color: var(--title-color);
+
+    font-family: Roboto, sans-serif; /*не наследует??? */
+    font-style: normal;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    background-color: #f5f4fa;
+    border-color: #f5f4fa;
+    border-radius: 4px;
+}
+
+.button:hover,
+.button:focus{
+    color: var(--secondary-title-color);
+
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    
+    cursor: pointer;
+}
+.project{
+    text-decoration: none;
+}
+
+.project .title{
+    color: var(--title-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+ .project .sub-title{
+    color: var(--text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-transform: none;
+}
+
+/* footer */
+footer{
+    background-color: var(--text-color); /*для видимості*/
+}
+
+.address{
+    color: var(--secondary-title-color);
+    font-style: normal;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.address-color{
+    color: rgba(255, 255, 255, 0.6);
+}
