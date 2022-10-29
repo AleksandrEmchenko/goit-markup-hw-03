@@ -21,6 +21,11 @@ ul {
     Padding: 0;
 }
 
+p, 
+ul{
+    margin-bottom: 0;
+}
+
 body{
     color: var(--text-color);
 
@@ -32,15 +37,13 @@ body{
     letter-spacing: 0.02em;
 }
 
-/* index */
-/* header */
+/* -----index----- */
+/* -----header----- */
+
 header{
     border-bottom: 1px solid #ECECEC;
 }
-p, 
-ul{
-    margin-bottom: 0;
-}
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -86,17 +89,19 @@ ul{
     color: var(--accent-color);
 }
 
-/* nav */
+/* -----nav----- */
+
 .list{
     list-style: none;;
 }
 
-/* main */
-/* hero */
+/* -----main----- */
+/* -----hero----- */
 
 .hero{
     background-color: var(--first-bgcolor);
 }
+
 .hero-title{
     color: var(--secondary-title-color);
 
@@ -132,13 +137,14 @@ ul{
     cursor: pointer;
 }
 
-/* section */
+/* -----section----- */
 
 .section{
     padding: 94px 0;
     outline: 1px solid green;
     background-color: grey;
 }
+
 .title{
     color: var(--title-color);
 
@@ -168,13 +174,13 @@ ul{
     padding-top: 0;
 }
 
-
 .text{
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
 
-/* team */
+/* -----team----- */
+
 .team{
     background-color: var(--second-bgcolor);
 }
@@ -186,6 +192,7 @@ ul{
 .card-title{
     margin-bottom: 10px;
 }
+
 .card-title,
 .card-subtitle{
     color: var(--title-color);
@@ -203,9 +210,17 @@ ul{
     margin-bottom: 30px;
 }
 
-/* portfolio */
+/* -----portfolio----- */
+
+.filters{
+
+    margin-bottom: 50px;
+}
+
 .button{
     color: var(--title-color);
+
+    padding: 6px 25px;
 
     font-family: Roboto, sans-serif;
     font-style: normal;
@@ -231,12 +246,24 @@ ul{
     
     cursor: pointer;
 }
+
 .project{
     text-decoration: none;
 }
 
+.project-img{
+    margin-bottom: 20px;
+}
+
+.project-text{
+    margin-bottom: 20px;
+}
+
 .project .title{
     color: var(--title-color);
+
+    margin-bottom: 4px;
+
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -254,7 +281,8 @@ ul{
     text-transform: none;
 }
 
-/* footer */
+/* -----footer----- */
+
 .footer{
     background-color: var(--first-bgcolor);
     padding: 60px 0;
@@ -274,5 +302,3 @@ ul{
 .address-color{
     color: rgba(255, 255, 255, 0.6);
 }
-
-
